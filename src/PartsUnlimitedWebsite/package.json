@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://partsunlimited.visualstudio.com/DefaultCollection/_git/PartsUnlimited"
   },
-  "readme": "Look at: https://partsunlimited.visualstudio.com/DefaultCollection/Assets/_git/Cloud#path=%2FREADME.md&version=GBmaster&_a=contents",
+  "readme": "https://github.com/Microsoft/PartsUnlimited/blob/master/README.md",
   "_comment": "Only grunt, grunt-bower-task, and grun-contrib-copy are required.  The rest (in specific order) are there to reduce nesting.  Node will nest too deep and cause PathTooLongException in many parts of the toolchain and infrastructure",
   "devDependencies": {
     "argparse": "1.0.1",
