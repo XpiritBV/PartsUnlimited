@@ -1,4 +1,4 @@
-/// <binding BeforeBuild='copy-all' />
+/// <binding BeforeBuild='copy-all' AfterBuild='bower:install, concat:dist, copy:main, sass:dist, uglify:build' />
 
 /*
 This file in the main entry point for defining grunt tasks and using grunt plugins.
