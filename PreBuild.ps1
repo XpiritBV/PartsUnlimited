@@ -24,6 +24,6 @@ else
 #Get-ChildItem -Path $PSScriptRoot\src -Filter project.json -Recurse | ForEach-Object { & dnu restore $_.FullName 2>1 }
 dnu restore .\src\PartsUnlimited.Models\project.json
 dnu restore .\src\PartsUnlimitedWebsite\project.json
-npm install --save-dev gulp-sass@2
+npm install --save-dev grunt-sass
 #dnu restore .\src\PartsUnlimited.WebJobs.ProcessOrder\project.json
 #dnu restore .\src\PartsUnlimited.WebJobs.UpdateProductInventory\project.json
