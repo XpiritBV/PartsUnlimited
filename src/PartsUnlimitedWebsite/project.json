@@ -42,8 +42,7 @@
     "run": "run server.urls=http://localhost:5001"
   },
   "scripts": {
-    "postrestore": [ "npm install" ],
-    "prepare": [ "grunt" ]
+    "postrestore": [ "npm install" ]
   },
   "exclude": [
     "wwwroot",
